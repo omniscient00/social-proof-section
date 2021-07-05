@@ -171,10 +171,11 @@ header p {
             HEADER
     ==================== */
     .container {
-        margin: 50px;
+        max-height: 500px;
+        margin: 50px 50px 20px 50px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
 
     /*==== TITLE ====*/
