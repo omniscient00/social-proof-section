@@ -157,7 +157,7 @@ header p {
         MEDIA QUERY (DESKTOP VIEW)
 ====================================================*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1440px) {
 
     body {
         background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
@@ -183,14 +183,14 @@ header p {
         text-align: left;
         margin-left: 100px;
     }
-
+    
     header h1 {
-        font-size: 4em;
+        font-size: 50px;
     }
 
     header p {
         padding-left: 20px;
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     /* ==== RATINGS ==== */
