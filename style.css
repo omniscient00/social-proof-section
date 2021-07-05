@@ -157,7 +157,7 @@ header p {
         MEDIA QUERY (DESKTOP VIEW)
 ====================================================*/
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
 
     body {
         background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
@@ -171,7 +171,7 @@ header p {
             HEADER
     ==================== */
     .container {
-        max-height: 500px;
+        max-height: 30%;
         margin: 50px;
         display: flex;
         justify-content: space-between;
